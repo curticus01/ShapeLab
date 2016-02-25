@@ -11,8 +11,8 @@ public class Square implements Shape{
 	}
 	
 	public double getPerimeter(){
-		double parimeter = 0;
-		parimeter = 4*length;
-		return parimeter;
+		double perimeter = 0;
+		perimeter = 4*length;
+		return perimeter;
 	}
 }

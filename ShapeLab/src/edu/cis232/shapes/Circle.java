@@ -16,8 +16,8 @@ public class Circle implements Shape{
 	}
 	
 	public double getPerimeter(){
-		double parimeter = 0;
-		parimeter = 2*(Math.PI*radius);
-		return parimeter;
+		double perimeter = 0;
+		perimeter = 2*(Math.PI*radius);
+		return perimeter;
 	}
 }
