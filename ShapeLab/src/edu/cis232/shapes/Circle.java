@@ -15,7 +15,7 @@ public class Circle implements Shape{
 		return area;
 	}
 	
-	public double getParimeter(){
+	public double getPerimeter(){
 		double parimeter = 0;
 		parimeter = 2*(Math.PI*radius);
 		return parimeter;

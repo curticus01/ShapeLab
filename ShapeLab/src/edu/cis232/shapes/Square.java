@@ -10,7 +10,7 @@ public class Square implements Shape{
 		return area;
 	}
 	
-	public double getParimeter(){
+	public double getPerimeter(){
 		double parimeter = 0;
 		parimeter = 4*length;
 		return parimeter;
