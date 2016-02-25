@@ -23,5 +23,10 @@ public class RightTriangle implements Shape
 		perimeter = (height + base)+Math.sqrt((height*height) + (base*base));
 		return perimeter;
 	}
+	
+	public String toString(){
+		String output = System.out.printf("This RightTriangle has an Area of %d and a Perimeter of %d", getArea(), getPerimeter()).toString();
+		return output;
+	}
 
 }

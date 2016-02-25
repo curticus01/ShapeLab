@@ -6,7 +6,7 @@ public class Circle implements Shape{
 	
 	public Circle(double radius){
 		this.radius = radius;
-		
+	
 	}
 	
 	public double getArea(){
@@ -19,5 +19,10 @@ public class Circle implements Shape{
 		double perimeter = 0;
 		perimeter = 2*(Math.PI*radius);
 		return perimeter;
+	}
+	
+	public String toString(){
+		String output = System.out.printf("This Circle has an Area of %d and a Perimeter of %d", getArea(), getPerimeter()).toString();
+		return output;
 	}
 }

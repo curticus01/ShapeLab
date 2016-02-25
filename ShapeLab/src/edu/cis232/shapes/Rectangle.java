@@ -23,5 +23,10 @@ public class Rectangle implements Shape
 		perimeter = (length *2)+(width*2);
 		return perimeter;
 	}
+	
+	public String toString(){
+		String output = System.out.printf("This Rectangle has an Area of %d and a Perimeter of %d", getArea(), getPerimeter()).toString();
+		return output;
+	}
 
 }
