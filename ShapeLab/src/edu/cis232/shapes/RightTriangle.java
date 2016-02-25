@@ -17,11 +17,11 @@ public class RightTriangle implements Shape
 		area = (base*height)/2;
 		return area;
 	}
-	public double getParemeter()
+	public double getPerimeter()
 	{
-		double paremeter;
-		paremeter = (height + base)+Math.sqrt((height*height) + (base*base));
-		return paremeter;
+		double perimeter;
+		perimeter = (height + base)+Math.sqrt((height*height) + (base*base));
+		return perimeter;
 	}
 
 }

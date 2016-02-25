@@ -17,11 +17,11 @@ public class Rectangle implements Shape
 		area = length * width;
 		return area;
 	}
-	public double getParemeter()
+	public double getPerimeter()
 	{
-		double paremeter;
-		paremeter = (length *2)+(width*2);
-		return paremeter;
+		double perimeter;
+		perimeter = (length *2)+(width*2);
+		return perimeter;
 	}
 
 }
