@@ -22,7 +22,7 @@ public class Square implements Shape{
 	}
 	
 	public String toString(){
-		String output = System.out.printf("This Square has an Area of %d and a Perimeter of %d", getArea(), getPerimeter()).toString();
+		String output = String.format("This Square has an Area of %d and a Perimeter of %d", getArea(), getPerimeter());
 		return output;
 	}
 }

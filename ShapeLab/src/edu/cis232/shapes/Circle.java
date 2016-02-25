@@ -22,7 +22,7 @@ public class Circle implements Shape{
 	}
 	
 	public String toString(){
-		String output = System.out.printf("This Circle has an Area of %d and a Perimeter of %d", getArea(), getPerimeter()).toString();
+		String output = String.format("This Circle has an Area of %d and a Perimeter of %d", getArea(), getPerimeter());
 		return output;
 	}
 }
