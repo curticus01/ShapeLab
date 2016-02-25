@@ -23,7 +23,7 @@ public class MainApplication {
 		while(input.hasNextLine())
 		{
 			String data = input.nextLine();
-			StringTokenizer tokens = new StringTokenizer(data, "/-");
+			StringTokenizer tokens = new StringTokenizer(data, ",");
 			
 			if(tokens.countTokens()==3)
 			{
