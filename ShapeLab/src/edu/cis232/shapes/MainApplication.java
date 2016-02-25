@@ -18,7 +18,7 @@ public class MainApplication {
 		File file = new File("shapes.csv");
 		Scanner input = new Scanner(file);
 		
-		ArrayList<Shape> shapes = new ArrayList();
+		ArrayList<Shape> shapes = new ArrayList<Shape>();
 		
 		while(input.hasNextLine())
 		{
@@ -65,19 +65,9 @@ public class MainApplication {
 		}
 		for(Shape shape : shapes)
 		{
-			System.out.println(shape);
-			if(shape instanceof Shape)
-			{
-				shape.toString();
-			}
-			
+			System.out.println(shape);			
 		}
-		
-		
 		input.close();
-		
-		
-
 	}
 
 }
