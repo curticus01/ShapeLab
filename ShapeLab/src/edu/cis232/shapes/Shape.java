@@ -1,5 +1,6 @@
 package edu.cis232.shapes;
 
-public interface Shape {
+public interface Shape 
+{
 
 }
