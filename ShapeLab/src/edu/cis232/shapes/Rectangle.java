@@ -25,7 +25,7 @@ public class Rectangle implements Shape
 	}
 	
 	public String toString(){
-		String output = String.format("This Rectangle has an Area of %f and a Perimeter of %f", getArea(), getPerimeter());
+		String output = String.format("This Rectangle has an Area of %.2f and a Perimeter of %.2f", getArea(), getPerimeter());
 		return output;
 	}
 
