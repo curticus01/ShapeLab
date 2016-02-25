@@ -3,11 +3,11 @@ package edu.cis232.shapes;
 public class Square implements Shape{
 	
 	double length;
-	
-	public Square(double length){
+	public Square(double length)
+	{
 		this.length = length;
-	
 	}
+	
 	
 	public double getArea(){
 		double area = 0;
